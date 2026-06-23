@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-size: 14px;
+}
+
+body {
+  font-size: 1rem;
+  font-family: 
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+.page-title{
+  @apply text-3xl font-medium py-5 text-teal-950;
+}
+
+.layout-guide{
+  @apply sm:max-w-screen-sm md:max-w-screen-md lg:max-w-screen-lg  xl:max-w-screen-xl  2xl:max-w-screen-2xl mx-auto w-full;
+}
+
+a{
+  @apply text-indigo-400 hover:text-indigo-500
+}
